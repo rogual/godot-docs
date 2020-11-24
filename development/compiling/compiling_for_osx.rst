@@ -69,7 +69,7 @@ editor binary built with ``target=release_debug``::
 If you are building the ``master`` branch, additionally copy the Vulkan library::
 
     mkdir -p Godot.app/Contents/Frameworks
-    cp <Vulkan SDK path>/macOS/libs/libMoltenVK.dylib Godot.app/Contents/Frameworks/libMoltenVK.dylib
+    cp <Vulkan SDK path>/macOS/lib/libMoltenVK.dylib Godot.app/Contents/Frameworks/libMoltenVK.dylib
 
 Compiling a headless/server build
 ---------------------------------
